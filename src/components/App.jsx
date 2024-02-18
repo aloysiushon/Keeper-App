@@ -6,9 +6,9 @@ import Note from "./Note";
 function App() {
   return (
     <div>
-      <header><Heading/></header>
+      <Heading/>
       <Note/>
-      <footer><Footer/></footer>
+      <Footer/>
     </div>
   );
 }
